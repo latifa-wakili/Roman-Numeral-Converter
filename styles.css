@@ -1,49 +1,49 @@
 body {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
-   background-color: #f0f0f0;
-   margin: 0;
-   font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3190ef;
+  margin: 0;
+  font-family: Arial, sans-serif;
  }
  
  .container {
-   text-align: center;
-   background-color: #ffffff;
-   padding: 2rem;
-   border-radius: 10px;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #88bdcf;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
  }
  
  h1 {
-   margin-bottom: 1rem;
+  margin-bottom: 1rem;
  }
  
  input {
-   padding: 0.5rem;
-   font-size: 1rem;
-   margin-bottom: 1rem;
-   border: 1px solid #cccccc;
-   border-radius: 5px;
-   width: calc(100% - 1rem);
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #051817;
+  border-radius: 5px;
+  width: calc(100% - 1rem);
  }
  
  button {
-   padding: 0.5rem 1rem;
-   font-size: 1rem;
-   border: none;
-   background-color: #007bff;
-   color: #ffffff;
-   border-radius: 5px;
-   cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #3d47cf;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
  }
  
  button:hover {
-   background-color: #0056b3;
+  background-color: #207fe4;
  }
  
  #output {
-   margin-top: 1rem;
-   font-size: 1.2rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
  }
