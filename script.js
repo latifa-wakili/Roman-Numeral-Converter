@@ -1,5 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('convert-btn').addEventListener('click', function() {
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('convert-btn').addEventListener('click', () => {
     const numberInput = document.getElementById('number').value;
     const outputElement = document.getElementById('output');
     
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     outputElement.textContent = romanNumeral;
   });
 
-  function convertToRoman(num) {
+  const convertToRoman = (num) => {
     const romanNumerals = [
       { value: 1000, numeral: 'M' },
       { value: 900, numeral: 'CM' },
@@ -50,5 +50,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     return result;
-  }
+  };
 });
