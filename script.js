@@ -18,8 +18,8 @@ function convertToRoman(num) {
   let result = '';
   romanNumerals.forEach(({ value, numeral }) => {
     while (num >= value) {
-        result += numeral;
-        num -= value;
+      result += numeral;
+      num -= value;
     }
   });
   return result;
