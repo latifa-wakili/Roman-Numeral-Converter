@@ -14,14 +14,13 @@ A function convertToRoman that converts a number to its Roman numeral equivalent
 
 
 ## Demo 📸
-![Demo]
-(Roman-NC.png)
+![Demo](Roman-NC.png)
 
 ## Technologies Used 🛠️
 
 - HTML
 - CSS
--JS
+- JS
 
 ## Installation 💻
 
@@ -35,7 +34,9 @@ Provide step-by-step instructions on how to install and set up your project. Inc
 # cd Roman-Numeral-Converter.
 ```
 
-# vscode.
+
+ ```bash
+# code .
 ```
 
 ## Usage 🎯

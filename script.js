@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
 
     let result = '';
-    for (let i = 0; i < romanNumerals.length; i) {
+    for (let i = 0; i < romanNumerals.length; i++) {
       const { value, numeral } = romanNumerals[i];
       while (num >= value) {
         result += numeral;
